@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "catalyst", "catalyst", "{9A5A799F-67FE-45A2-9FA4-B8E8371AC1F6}"
+	ProjectSection(SolutionItems) = preProject
+		..\catalyst\Mod.Build.targets = ..\catalyst\Mod.Build.targets
+		..\catalyst\Library.Build.targets = ..\catalyst\Library.Build.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5551F3C1-F13F-4B31-BBA4-50C7A2CEB1B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{431C7C4C-C592-4A39-80E9-10334AD0D1D0}"
+	ProjectSection(SolutionItems) = preProject
+		..\catalyst\build\TeamCatalyst.Catalyst.ErrorChecker.targets = ..\catalyst\build\TeamCatalyst.Catalyst.ErrorChecker.targets
+		..\catalyst\build\TeamCatalyst.Catalyst.ModLoader.targets = ..\catalyst\build\TeamCatalyst.Catalyst.ModLoader.targets
+		..\catalyst\build\TeamCatalyst.Catalyst.targets = ..\catalyst\build\TeamCatalyst.Catalyst.targets
+		..\catalyst\build\TeamCatalyst.Catalyst.DotNetPath.targets = ..\catalyst\build\TeamCatalyst.Catalyst.DotNetPath.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCatalyst.Catalyst.Build", "..\catalyst\src\TeamCatalyst.Catalyst.Build\TeamCatalyst.Catalyst.Build.csproj", "{9BB7EC73-C9E7-4EC9-8AED-91C744732635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinguaFranca", "LinguaFranca\LinguaFranca.csproj", "{C99226D2-8D9C-4206-B500-EABFC570FE70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterFontSupport", "BetterFontSupport\BetterFontSupport.csproj", "{2C7E54CB-FA92-4641-9DA6-A21E9221C6BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5551F3C1-F13F-4B31-BBA4-50C7A2CEB1B1} = {9A5A799F-67FE-45A2-9FA4-B8E8371AC1F6}
+		{431C7C4C-C592-4A39-80E9-10334AD0D1D0} = {9A5A799F-67FE-45A2-9FA4-B8E8371AC1F6}
+		{9BB7EC73-C9E7-4EC9-8AED-91C744732635} = {5551F3C1-F13F-4B31-BBA4-50C7A2CEB1B1}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BB7EC73-C9E7-4EC9-8AED-91C744732635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BB7EC73-C9E7-4EC9-8AED-91C744732635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BB7EC73-C9E7-4EC9-8AED-91C744732635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BB7EC73-C9E7-4EC9-8AED-91C744732635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C99226D2-8D9C-4206-B500-EABFC570FE70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99226D2-8D9C-4206-B500-EABFC570FE70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99226D2-8D9C-4206-B500-EABFC570FE70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99226D2-8D9C-4206-B500-EABFC570FE70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C7E54CB-FA92-4641-9DA6-A21E9221C6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C7E54CB-FA92-4641-9DA6-A21E9221C6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C7E54CB-FA92-4641-9DA6-A21E9221C6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C7E54CB-FA92-4641-9DA6-A21E9221C6BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

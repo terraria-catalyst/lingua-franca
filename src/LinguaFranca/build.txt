@@ -1,0 +1,5 @@
+﻿displayName = Lingua Franca (Better Language Support)
+author = Tomat (Team Catalyst)
+version = 1.0.0
+side = Client
+homepage = https://discord.gg/vPTUZcvXjg/

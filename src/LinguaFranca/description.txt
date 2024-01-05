@@ -1,0 +1,1 @@
+﻿Allows for the registration of more languages, and registers a lot of languages itself.
