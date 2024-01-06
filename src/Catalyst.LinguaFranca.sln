@@ -17,6 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{431C7C4C
 		..\catalyst\build\TeamCatalyst.Catalyst.ModLoader.targets = ..\catalyst\build\TeamCatalyst.Catalyst.ModLoader.targets
 		..\catalyst\build\TeamCatalyst.Catalyst.targets = ..\catalyst\build\TeamCatalyst.Catalyst.targets
 		..\catalyst\build\TeamCatalyst.Catalyst.DotNetPath.targets = ..\catalyst\build\TeamCatalyst.Catalyst.DotNetPath.targets
+		..\catalyst\build\TeamCatalyst.Catalyst.ModifyReferences.targets = ..\catalyst\build\TeamCatalyst.Catalyst.ModifyReferences.targets
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCatalyst.Catalyst.Build", "..\catalyst\src\TeamCatalyst.Catalyst.Build\TeamCatalyst.Catalyst.Build.csproj", "{9BB7EC73-C9E7-4EC9-8AED-91C744732635}"
@@ -24,6 +25,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinguaFranca", "LinguaFranca\LinguaFranca.csproj", "{C99226D2-8D9C-4206-B500-EABFC570FE70}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterFontSupport", "BetterFontSupport\BetterFontSupport.csproj", "{2C7E54CB-FA92-4641-9DA6-A21E9221C6BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCatalyst.Catalyst.Abstractions", "..\catalyst\src\TeamCatalyst.Catalyst.Abstractions\TeamCatalyst.Catalyst.Abstractions.csproj", "{8166B731-D1BD-4224-900D-E271EC23DDFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCatalyst.Catalyst.Build.Lua", "..\catalyst\src\TeamCatalyst.Catalyst.Build.Lua\TeamCatalyst.Catalyst.Build.Lua.csproj", "{BCD9572B-1169-49C4-A224-D23187B200D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCatalyst.Catalyst.Build.Json", "..\catalyst\src\TeamCatalyst.Catalyst.Build.Json\TeamCatalyst.Catalyst.Build.Json.csproj", "{112063DE-9AD1-4C8A-A25D-CD4E7137E88F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCatalyst.Catalyst.Build.JavaScript", "..\catalyst\src\TeamCatalyst.Catalyst.Build.JavaScript\TeamCatalyst.Catalyst.Build.JavaScript.csproj", "{3329B0E5-7905-4ECF-8FB8-286776F6DF8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +46,10 @@ Global
 		{5551F3C1-F13F-4B31-BBA4-50C7A2CEB1B1} = {9A5A799F-67FE-45A2-9FA4-B8E8371AC1F6}
 		{431C7C4C-C592-4A39-80E9-10334AD0D1D0} = {9A5A799F-67FE-45A2-9FA4-B8E8371AC1F6}
 		{9BB7EC73-C9E7-4EC9-8AED-91C744732635} = {5551F3C1-F13F-4B31-BBA4-50C7A2CEB1B1}
+		{8166B731-D1BD-4224-900D-E271EC23DDFA} = {5551F3C1-F13F-4B31-BBA4-50C7A2CEB1B1}
+		{BCD9572B-1169-49C4-A224-D23187B200D2} = {5551F3C1-F13F-4B31-BBA4-50C7A2CEB1B1}
+		{112063DE-9AD1-4C8A-A25D-CD4E7137E88F} = {5551F3C1-F13F-4B31-BBA4-50C7A2CEB1B1}
+		{3329B0E5-7905-4ECF-8FB8-286776F6DF8F} = {5551F3C1-F13F-4B31-BBA4-50C7A2CEB1B1}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9BB7EC73-C9E7-4EC9-8AED-91C744732635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -51,5 +64,21 @@ Global
 		{2C7E54CB-FA92-4641-9DA6-A21E9221C6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C7E54CB-FA92-4641-9DA6-A21E9221C6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C7E54CB-FA92-4641-9DA6-A21E9221C6BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8166B731-D1BD-4224-900D-E271EC23DDFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8166B731-D1BD-4224-900D-E271EC23DDFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8166B731-D1BD-4224-900D-E271EC23DDFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8166B731-D1BD-4224-900D-E271EC23DDFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCD9572B-1169-49C4-A224-D23187B200D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD9572B-1169-49C4-A224-D23187B200D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD9572B-1169-49C4-A224-D23187B200D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD9572B-1169-49C4-A224-D23187B200D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{112063DE-9AD1-4C8A-A25D-CD4E7137E88F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{112063DE-9AD1-4C8A-A25D-CD4E7137E88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{112063DE-9AD1-4C8A-A25D-CD4E7137E88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{112063DE-9AD1-4C8A-A25D-CD4E7137E88F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3329B0E5-7905-4ECF-8FB8-286776F6DF8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3329B0E5-7905-4ECF-8FB8-286776F6DF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3329B0E5-7905-4ECF-8FB8-286776F6DF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3329B0E5-7905-4ECF-8FB8-286776F6DF8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -7,6 +7,8 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>TeamCatalyst.BetterFontSupport</RootNamespace>
+
+        <AssemblyPublicizerPaths>$(AssemblyPublicizerPaths);$(MSBuildThisFileDirectory)betterfontsupport.publicizer.js</AssemblyPublicizerPaths>
     </PropertyGroup>
 
 </Project>
