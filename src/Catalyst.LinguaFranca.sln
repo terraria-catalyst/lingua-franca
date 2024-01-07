@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCatalyst.Catalyst.Build
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCatalyst.Catalyst.Build.JavaScript", "..\catalyst\src\TeamCatalyst.Catalyst.Build.JavaScript\TeamCatalyst.Catalyst.Build.JavaScript.csproj", "{3329B0E5-7905-4ECF-8FB8-286776F6DF8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCatalyst.Catalyst.Annotations", "..\catalyst\src\TeamCatalyst.Catalyst.Annotations\TeamCatalyst.Catalyst.Annotations.csproj", "{393AE663-F827-475A-BC1D-0D02BFF82F70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +52,7 @@ Global
 		{BCD9572B-1169-49C4-A224-D23187B200D2} = {5551F3C1-F13F-4B31-BBA4-50C7A2CEB1B1}
 		{112063DE-9AD1-4C8A-A25D-CD4E7137E88F} = {5551F3C1-F13F-4B31-BBA4-50C7A2CEB1B1}
 		{3329B0E5-7905-4ECF-8FB8-286776F6DF8F} = {5551F3C1-F13F-4B31-BBA4-50C7A2CEB1B1}
+		{393AE663-F827-475A-BC1D-0D02BFF82F70} = {5551F3C1-F13F-4B31-BBA4-50C7A2CEB1B1}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9BB7EC73-C9E7-4EC9-8AED-91C744732635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -80,5 +83,9 @@ Global
 		{3329B0E5-7905-4ECF-8FB8-286776F6DF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3329B0E5-7905-4ECF-8FB8-286776F6DF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3329B0E5-7905-4ECF-8FB8-286776F6DF8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{393AE663-F827-475A-BC1D-0D02BFF82F70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393AE663-F827-475A-BC1D-0D02BFF82F70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393AE663-F827-475A-BC1D-0D02BFF82F70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393AE663-F827-475A-BC1D-0D02BFF82F70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
